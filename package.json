@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-getninjas",
+  "version": "1.0.0",
+  "description": "GetNinjas eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getninjas/eslint-config-getninjas.git"
+  },
+  "keywords": [
+    "eslint",
+    "linter",
+    "getninjas"
+  ],
+  "author": "GetNinjas <tech@getninjas.com.br> (http://www.getninjas.com.br)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/getninjas/eslint-config-getninjas/issues"
+  },
+  "homepage": "https://github.com/getninjas/eslint-config-getninjas#readme",
+  "peerDependencies": {
+    "babel-eslint": ">=7",
+    "babel-preset-airbnb": ">=2",
+    "eslint": ">=3",
+    "eslint-config-airbnb-base": ">=11",
+    "eslint-plugin-babel": ">=4",
+    "eslint-plugin-import": ">=2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-airbnb": "^2.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-babel": ">=4",
+    "eslint-plugin-import": "^2.3.0"
+  }
+}
