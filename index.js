@@ -1,17 +1,15 @@
 module.exports = {
-  extends: "airbnb-base",
+  extends: 'airbnb-base',
 
-  parser: "babel-eslint",
+  parser: 'babel-eslint',
 
-  plugins: [
-    "babel"
-  ],
+  plugins: ['babel'],
 
   env: {
     browser: true,
     es6: true,
     jasmine: true,
-    jquery: true
+    jquery: true,
   },
 
   globals: {
@@ -21,11 +19,11 @@ module.exports = {
     loadFixtures: false,
     modulejs: false,
     preloadFixtures: false,
-    spyOnEvent: false
+    spyOnEvent: false,
   },
 
   rules: {
     strict: 0,
-    func-names: 0
-  }
-}
+    'func-names': 0,
+  },
+};
