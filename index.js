@@ -3,16 +3,24 @@ module.exports = {
 
   parser: 'babel-eslint',
 
-  plugins: ['babel'],
+  plugins: [
+    'babel',
+    'import',
+  ],
 
   env: {
     browser: true,
     es6: true,
     jasmine: true,
     jquery: true,
+    node: true,
   },
 
   globals: {
+    modulejs: true,
+    Moderniz: true,
+    $: true,
+    jquery: true
     context: false,
     appendLoadFixtures: false,
     readFixtures: false,
