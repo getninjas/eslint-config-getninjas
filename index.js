@@ -20,7 +20,7 @@ module.exports = {
     modulejs: true,
     Moderniz: true,
     $: true,
-    jquery: true
+    jquery: true,
     context: false,
     appendLoadFixtures: false,
     readFixtures: false,
