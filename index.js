@@ -25,7 +25,6 @@ module.exports = {
     appendLoadFixtures: false,
     readFixtures: false,
     loadFixtures: false,
-    modulejs: false,
     preloadFixtures: false,
     spyOnEvent: false,
   },
