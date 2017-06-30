@@ -25,7 +25,6 @@ module.exports = {
     appendLoadFixtures: false,
     readFixtures: false,
     loadFixtures: false,
-    modulejs: false,
     preloadFixtures: false,
     spyOnEvent: false,
   },
@@ -33,5 +32,6 @@ module.exports = {
   rules: {
     strict: 0,
     'func-names': 0,
+    'no-underscore-dangle': [ 0, { 'allowAfterThis': true } ]
   },
 };
