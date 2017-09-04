@@ -20,12 +20,11 @@ module.exports = {
     modulejs: true,
     Moderniz: true,
     $: true,
-    jquery: true
+    jquery: true,
     context: false,
     appendLoadFixtures: false,
     readFixtures: false,
     loadFixtures: false,
-    modulejs: false,
     preloadFixtures: false,
     spyOnEvent: false,
   },
@@ -34,5 +33,6 @@ module.exports = {
     strict: 0,
     'func-names': 0,
     curly: [ 'error', 'all' ],
+    'no-underscore-dangle': [ 0, { 'allowAfterThis': true } ]
   },
 };
