@@ -32,6 +32,7 @@ module.exports = {
   rules: {
     strict: 0,
     'func-names': 0,
+    curly: [ 'error', 'all' ],
     'no-underscore-dangle': [ 0, { 'allowAfterThis': true } ]
   },
 };
