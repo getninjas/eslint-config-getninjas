@@ -33,5 +33,6 @@ module.exports = {
   rules: {
     strict: 0,
     'func-names': 0,
+    curly: [ 'error', 'all' ],
   },
 };
