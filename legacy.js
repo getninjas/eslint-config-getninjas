@@ -1,11 +1,10 @@
 module.exports = {
   extends: [
-    'airbnb-base',
+    'airbnb-base/legacy',
     './common.js'
   ],
 
   rules: {
-    'func-names': 0,
-    curly: ['error', 'all']
+    'func-names': ['error', "never"]
   },
 };
