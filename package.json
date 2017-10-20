@@ -28,7 +28,8 @@
     "eslint": "^3",
     "eslint-config-airbnb-base": "^11",
     "eslint-plugin-babel": "^4",
-    "eslint-plugin-import": "^2"
+    "eslint-plugin-import": "^2",
+    "jasmine-jquery": "^2.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
@@ -36,6 +37,7 @@
     "eslint": "^4",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-babel": "^4",
-    "eslint-plugin-import": "^2.3.0"
+    "eslint-plugin-import": "^2.3.0",
+    "jasmine-jquery": "^2.1.1"
   }
 }
