@@ -2,8 +2,6 @@ module.exports = {
   extends: 'plugin:jasmine-jquery/recommended',
 
   plugins: [
-    'babel',
-    'import',
     'jasmine-jquery'
   ],
 
