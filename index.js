@@ -1,5 +1,8 @@
 module.exports = {
-  extends: 'airbnb-base',
+  extends: [
+    'airbnb-base',
+    './common.js'
+  ],
 
   parser: 'babel-eslint',
 
@@ -8,34 +11,8 @@ module.exports = {
     'import',
   ],
 
-  env: {
-    browser: true,
-    es6: true,
-    jasmine: true,
-    jquery: true,
-    node: true,
-  },
-
-  globals: {
-    modulejs: true,
-    Moderniz: true,
-    $: true,
-    jquery: true,
-    context: false,
-    appendLoadFixtures: false,
-    readFixtures: false,
-    loadFixtures: false,
-    preloadFixtures: false,
-    spyOnEvent: false,
-  },
-
   rules: {
-    strict: 0,
     'func-names': 0,
-    curly: ['error', 'all'],
-    'no-underscore-dangle': [0, {
-      'allowAfterThis': true
-    }],
-    'class-methods-use-this': ['off', {}]
+    curly: ['error', 'all']
   },
 };
