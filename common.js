@@ -1,8 +1,12 @@
 module.exports = {
-  extends: 'plugin:jasmine-jquery/recommended',
+  extends: [
+    'plugin:jasmine-jquery/recommended',
+    'plugin:testcafe/recommended'
+  ],
 
   plugins: [
-    'jasmine-jquery'
+    'jasmine-jquery',
+    'testcafe'
   ],
 
   env: {
