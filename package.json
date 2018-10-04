@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-getninjas",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "GetNinjas eslint config",
   "main": "index.js",
   "scripts": {
