@@ -27,6 +27,17 @@ module.exports = {
     'no-underscore-dangle': [0, {
       'allowAfterThis': true
     }],
-    'class-methods-use-this': ['off', {}]
+    'class-methods-use-this': ['off', {}],
+    "max-len": [
+      "warn",
+      {
+        code: 120,
+        ignoreComments: true,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+      },
+    ],
   },
 };

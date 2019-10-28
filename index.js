@@ -14,6 +14,5 @@ module.exports = {
   rules: {
     'func-names': 0,
     curly: ['error', 'all'],
-    'max-len': ['error', 120]
   },
 };
