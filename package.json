@@ -1,12 +1,8 @@
 {
   "name": "eslint-config-getninjas",
-  "version": "4.2.0",
+  "version": "5.0.0",
   "description": "GetNinjas eslint config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postversion": "git push && git push --tags"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/getninjas/eslint-config-getninjas.git"
@@ -23,21 +19,19 @@
   },
   "homepage": "https://github.com/getninjas/eslint-config-getninjas#readme",
   "peerDependencies": {
-    "babel-eslint": "^7",
-    "babel-preset-airbnb": "^2",
-    "eslint": "^3",
-    "eslint-config-airbnb-base": "^11",
-    "eslint-plugin-babel": "^4",
-    "eslint-plugin-import": "^2",
-    "eslint-plugin-jasmine-jquery": "^1.0.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "babel-preset-airbnb": "^2.6.0",
-    "eslint": "^4.9.0",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-babel": "^4",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jasmine-jquery": "^1.0.0"
+    "eslint": "8.0.1",
+    "eslint-plugin-react": "7.30.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-standard-with-typescript": "22.0.0",
+    "eslint-plugin-n": "15.0.0",
+    "eslint-plugin-promise": "6.0.0",
+    "@typescript-eslint/eslint-plugin": "5.33.0",
+    "@typescript-eslint/parser": "5.33.0",
+    "eslint-plugin-react-hooks": "4.3.0"
   }
 }

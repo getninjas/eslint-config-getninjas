@@ -1,27 +1,15 @@
 module.exports = {
-  extends: [
-    'plugin:jasmine-jquery/recommended',
-  ],
-
-  plugins: [
-    'jasmine-jquery',
-  ],
-
   env: {
     browser: true,
-    jasmine: true,
-    jquery: true,
-    node: true,
+    es2021: true,
   },
-
-  globals: {
-    modulejs: true,
-    Moderniz: true,
-    $: true,
-    jquery: true,
-    preloadFixtures: false,
+  extends: 'airbnb-base',
+  overrides: [
+  ],
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
-
   rules: {
     strict: 0,
     'no-underscore-dangle': [0, {

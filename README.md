@@ -1,30 +1,9 @@
 # eslint-config-getninjas
 
-[![npm version](https://badge.fury.io/js/eslint-config-getninjas.svg)](https://badge.fury.io/js/eslint-config-getninjas)
+Esse repositorio contem os arquivos de configuração referentes ao eslint que serão usados em aplicações javascript.
 
-This is our eslint config, to centralize and to distribute this config by npm. We are extending `eslint-config-airbnb-base` (not the `eslint-config-airbnb`, because we don't have necessity of `eslint-plugin-jsx-a11y` and `eslint-plugin-react` - for now).
+## Como usar
 
-# Installing
-On your project, run the code below:
-
-```Bash
-( export PKG=eslint-config-getninjas;   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"; )
-```
-## Installing globally
-
-Some editors (like Vim) runs eslint globally, so you need to install eslint dependencies on your environment. To install it, just:
-
-```Bash
-( export PKG=eslint-config-getninjas;   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install -g "$PKG@latest"; )
-```
-
-# Usage
-We export two ESLint configurations for your usage.
-
-## eslint-config-getninjas
-
-Add "extends": "getninjas" to your .eslintrc.
-
-## eslint-config-getninjas/legacy
-
-Add "extends": "getninjas/legacy" to your .eslintrc.
+- Intalar o pacote `eslint-config-getninjas`
+- Adicionar "extends": "getninjas/base" para o .eslintrc, da aplicação dependendo da estrutura da aplicação.
+- As opções são: [base, react, react-typescript, typescript].
