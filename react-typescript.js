@@ -12,6 +12,7 @@ module.exports = {
   overrides: [
   ],
   parserOptions: {
+    project: "tsconfig.json",
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
@@ -19,9 +20,31 @@ module.exports = {
     'react'
   ],
   rules: {
-    "react/no-unescaped-entities": "off",
     "@next/next/no-page-custom-font": "off",
     "import/no-anonymous-default-export": "off",
-    'coma-dangle': off,
-  }
+    "comma-dangle": "off",
+    "prettier/prettier": "error",
+    "@typescript-eslint/dot-notation": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/member-delimiter-style": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "global-require": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    "camelcase": "off",
+    "no-console": ["error", { "allow": ["tron"] }],
+    "import/no-extraneous-dependencies": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/semi": "off",
+    "import/no-duplicates": "off"
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
 }
