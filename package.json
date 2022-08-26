@@ -18,8 +18,8 @@
     "url": "https://github.com/getninjas/eslint-config-getninjas/issues"
   },
   "homepage": "https://github.com/getninjas/eslint-config-getninjas#readme",
-  "peerDependencies": {
-    "eslint": "8.0.1",
+  "dependencies": {
+    "eslint": "8.21.0",
     "eslint-plugin-react": "7.30.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.2.1",
