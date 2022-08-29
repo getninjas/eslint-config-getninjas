@@ -11,6 +11,7 @@ module.exports = {
   ],
   overrides: [
   ],
+  parser: "@typescript-eslint/parser",
   parserOptions: {
     project: "tsconfig.json",
     ecmaVersion: 'latest',
@@ -39,8 +40,13 @@ module.exports = {
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
     "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/indent": "off",
+    "@typescript-eslint/space-before-function-paren": "off",
     "@typescript-eslint/semi": "off",
-    "import/no-duplicates": "off"
+    "@typescript-eslint/strict-boolean-expressions": "off",
+    "@typescript-eslint/restrict-template-expressions": "off",
+    "import/no-duplicates": "off",
+    "multiline-ternary": "off"
   },
   settings: {
     react: {
