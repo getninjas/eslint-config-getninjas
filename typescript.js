@@ -11,6 +11,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    'comma-dangle': off,
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'import/extensions': [
       'error',
