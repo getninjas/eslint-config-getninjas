@@ -45,7 +45,7 @@ module.exports = {
     "@typescript-eslint/semi": "off",
     "@typescript-eslint/strict-boolean-expressions": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
-    "@typescript-eslint/prefer-optional-chain": "off",
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
     "import/no-duplicates": "off",
     "multiline-ternary": "off"
   },
