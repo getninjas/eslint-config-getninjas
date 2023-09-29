@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-getninjas",
-  "version": "5.2.0",
+  "version": "6.0.0",
   "description": "GetNinjas eslint config",
   "main": "index.js",
   "repository": {
