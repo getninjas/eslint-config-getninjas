@@ -28,6 +28,6 @@ module.exports = {
     'react/jsx-no-bind': 'off',
     'react/jsx-props-no-spreading': 'off',
     'no-underscore-dangle': ['error', { allow: ['_links'] }],
-    'comma-dangle': '0',
+    'comma-dangle': 0,
   },
 };
