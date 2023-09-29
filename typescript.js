@@ -13,8 +13,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'comma-dangle': 'off',
-    '@typescript-eslint/comma-dangle': 'error',
+    'comma-dangle': 'never',
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'import/extensions': [
       'error',

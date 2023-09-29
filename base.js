@@ -11,7 +11,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'comma-dangle': 'off',
+    'comma-dangle': 'never',
     strict: 0,
     'no-underscore-dangle': [0, {
       'allowAfterThis': true
