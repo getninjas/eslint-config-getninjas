@@ -11,14 +11,14 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'comma-dangle': [2, 'always-multiline'],
+    'comma-dangle': 'off',
     strict: 0,
     'no-underscore-dangle': [0, {
       'allowAfterThis': true
     }],
     'class-methods-use-this': ['off', {}],
-    "max-len": [
-      "warn",
+    'max-len': [
+      'warn',
       {
         code: 120,
         ignoreComments: true,
