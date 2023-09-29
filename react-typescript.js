@@ -36,7 +36,7 @@ module.exports = {
     'camelcase': 'off',
     'no-console': ['error', { 'allow': ['tron'] }],
     'import/no-extraneous-dependencies': 'off',
-    'no-use-before-define': 'off',
+    'no-use-before-define': ['error', 'nofunc'],
     '@typescript-eslint/no-use-before-define': ['error'],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/indent': 'off',
@@ -52,6 +52,9 @@ module.exports = {
     'jsx-a11y/anchor-is-valid': 'off', // This rule is not compatible with Next.js's <Link /> components
     'react/jsx-no-bind': 'off',
     'react/jsx-props-no-spreading': 'off',
+    "react/jsx-filename-extension": [1, { 
+      "extensions": [".js", ".jsx", ".ts", ".tsx"] 
+    }]
   },
   settings: {
     react: {

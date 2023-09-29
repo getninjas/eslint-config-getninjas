@@ -24,10 +24,13 @@ module.exports = {
     'react/button-has-type': 'off',
     'react/react-in-jsx-scope': 'off', // No need to import React when using Next.js
     'jsx-a11y/anchor-is-valid': 'off', // This rule is not compatible with Next.js's <Link /> components
-    'no-use-before-define': ['error'],
+    'no-use-before-define': ['error', 'nofunc'],
     'react/jsx-no-bind': 'off',
     'react/jsx-props-no-spreading': 'off',
     'no-underscore-dangle': "off",
     'comma-dangle': 0,
+    "react/jsx-filename-extension": [1, { 
+      "extensions": [".js", ".jsx", ".ts", ".tsx"] 
+    }]
   },
 };
