@@ -13,7 +13,7 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
-    'comma-dangle': off,
+    'comma-dangle': [2, 'always-multiline'],
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     'import/extensions': [
       'error',
