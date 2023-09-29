@@ -23,7 +23,7 @@ module.exports = {
   rules: {
     "@next/next/no-page-custom-font": "off",
     "import/no-anonymous-default-export": "off",
-    'comma-dangle': 'never',
+    'comma-dangle': '0',
     "prettier/prettier": "error",
     "@typescript-eslint/dot-notation": "warn",
     "@typescript-eslint/explicit-function-return-type": "off",
