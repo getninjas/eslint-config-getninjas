@@ -22,8 +22,6 @@ module.exports = {
     'import/prefer-default-export': 'off',
 
     // New Rules
-    "@typescript-eslint/comma-dangle": "off",
-
     'import/no-anonymous-default-export': 'off',
 
     'import/extensions': 'off',
