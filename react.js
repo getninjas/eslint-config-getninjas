@@ -1,8 +1,8 @@
 module.exports = {
-  extends: [
-    'airbnb',
-    './rules/react'
-  ].map(require.resolve),
+  // extends: [
+  //   'airbnb',
+  //   './rules/react'
+  // ].map(require.resolve),
   rules: {
     'react/jsx-filename-extension': [
       'error',
