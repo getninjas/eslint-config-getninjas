@@ -22,6 +22,8 @@ module.exports = {
     'import/prefer-default-export': 'off',
 
     // New Rules
+    'indent': 'off',
+
     'import/no-anonymous-default-export': 'off',
 
     'import/extensions': 'off',
