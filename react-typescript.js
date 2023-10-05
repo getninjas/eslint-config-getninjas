@@ -1,7 +1,8 @@
 module.exports = {
   extends: [
     './rules/typescript',
-    './rules/react'
+    './rules/react',
+    'airbnb-typescript',
   ].map(require.resolve),
   rules: {
     'react/jsx-filename-extension': [

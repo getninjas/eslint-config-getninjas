@@ -3,12 +3,12 @@ module.exports = {
     es2021: true,
     node: true
   },
-  extends: 'standard-with-typescript',
+  extends: 'airbnb-typescript/base',
   overrides: [
   ],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: "tsconfig.json",
+    project: 'tsconfig.json',
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
