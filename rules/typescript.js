@@ -24,6 +24,8 @@ module.exports = {
     // New Rules
     'indent': 'off',
 
+    "@typescript-eslint/comma-dangle": "off",
+
     'import/no-anonymous-default-export': 'off',
 
     'import/extensions': 'off',
