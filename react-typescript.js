@@ -6,6 +6,7 @@ module.exports = {
   ].map(require.resolve),
   rules: {
     "@typescript-eslint/comma-dangle": "off",
+    "react/require-default-props": "off",
     'react/jsx-filename-extension': [
       'error',
       {
