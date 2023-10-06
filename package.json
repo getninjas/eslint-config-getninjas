@@ -2,7 +2,17 @@
   "name": "eslint-config-getninjas",
   "version": "6.0.0",
   "description": "GetNinjas eslint config",
-  "main": "index.js",
+  "main": "base.js",
+  "exports": {
+    "./base": "./base.js",
+    "./react": "./react.js",
+    "./react-typescript": "./react-typescript.js",
+    "./typescript": "./typescript.js",
+    "./rules/react": "./rules/react.js",
+    "./rules/react-typescript": "./rules/react-typescript.js",
+    "./rules/typescript": "./rules/typescript.js",
+    "./package.json": "./package.json"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/getninjas/eslint-config-getninjas.git"
