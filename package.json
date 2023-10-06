@@ -8,6 +8,7 @@
     "./react": "./react.js",
     "./react-typescript": "./react-typescript.js",
     "./typescript": "./typescript.js",
+    "./rules/base": "./rules/base.js",
     "./rules/react": "./rules/react.js",
     "./rules/react-typescript": "./rules/react-typescript.js",
     "./rules/typescript": "./rules/typescript.js",

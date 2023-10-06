@@ -1,5 +1,6 @@
 module.exports = {
-  extends: [
-    'airbnb-typescript',
-  ]
+  rules: {
+    // This rule makes sense only on React
+    '@typescript-eslint/explicit-function-return-type': 'off',
+  }
 };
