@@ -6,7 +6,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:prettier/recommended',
+    'prettier',
   ],
   rules: {
     // No need to import React in version 17+

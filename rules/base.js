@@ -19,10 +19,6 @@ module.exports = {
     // and use the last to go to the next middleware.
     'no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '_' }],
 
-    // In our styleguide, we use named exports in all files.
-    'import/prefer-default-export': 'off',
-    'import/no-default-export': 'error',
-
     // This rule allows functions to be declared after its use.
     // Through the concept of hoisting, the functions can be
     // declared anywhere, helping the code legibility
