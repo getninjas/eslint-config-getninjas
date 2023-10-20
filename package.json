@@ -23,7 +23,11 @@
     "linter",
     "getninjas"
   ],
-  "author": "GetNinjas <tech@getninjas.com.br> (http://www.getninjas.com.br)",
+  "author": {
+    "name": "GetNinjas",
+    "email": "tech@getninjas.com.br",
+    "url": "http://www.getninjas.com.br"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/getninjas/eslint-config-getninjas/issues"
