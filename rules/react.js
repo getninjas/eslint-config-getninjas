@@ -3,21 +3,21 @@ module.exports = {
     browser: true,
   },
   extends: [
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended',
-    'prettier',
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
   ],
   rules: {
     // No need to import React in version 17+
-    'react/react-in-jsx-scope': 'off',
+    "react/react-in-jsx-scope": "off",
 
     // Enable spreading in React components
-    'react/jsx-props-no-spreading': 'off',
+    "react/jsx-props-no-spreading": "off",
   },
   settings: {
     react: {
-      version: 'detect',
+      version: "detect",
     },
   },
 };
