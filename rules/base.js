@@ -28,5 +28,9 @@ module.exports = {
     // declared anywhere, helping the code legibility
     // This style was inspired by the book Refactoring (2nd Edition)
     'no-use-before-define': ['error', 'nofunc'],
+
+    // Prevent warning "should be listed in the project's dependencies, not devDependencies."
+    // Like: faker, eslint, jest etc.
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   }
 }
