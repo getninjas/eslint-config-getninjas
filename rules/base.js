@@ -19,6 +19,11 @@ module.exports = {
     // and use the last to go to the next middleware.
     'no-unused-vars': ['error', { args: 'all', argsIgnorePattern: '_' }],
 
+    // In our styleguide, we don't have a pattern.
+    // In some places we use default export, namely because of Next.js.
+    // In others, we use named exports.
+    'import/prefer-default-export': 'off',
+
     // This rule allows functions to be declared after its use.
     // Through the concept of hoisting, the functions can be
     // declared anywhere, helping the code legibility
