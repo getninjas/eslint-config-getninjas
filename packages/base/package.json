@@ -1,0 +1,26 @@
+{
+  "name": "@eslint-config-getninjas/base",
+  "version": "1.0.0",
+  "description": "ESLint config base for projects based on GetNinjas' code style",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "linter",
+    "getninjas"
+  ],
+  "author": {
+    "name": "GetNinjas",
+    "email": "tech@getninjas.com.br",
+    "url": "http://www.getninjas.com.br"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
