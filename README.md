@@ -34,7 +34,7 @@ yarn add -D eslint-config-getninjas
 2. Install the `peerDependencies`
 
 ```bash
-yarn add \
+yarn add -D \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   eslint \
