@@ -5,6 +5,7 @@ module.exports = {
     './rules/typescript.js',
     './rules/react.js',
     './rules/react-typescript.js',
+    './rules/nextjs-typescript.js'
   ].map(require.resolve),
   rules: {}
 }
